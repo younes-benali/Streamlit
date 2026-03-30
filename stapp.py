@@ -32,8 +32,7 @@ st.sidebar.write("""
 """)
 
 # File uploader
-file = st.file_uploader("📂 Upload an image", type=["jpg", "jpeg", "png"])
-
+file = st.file_uploader( "📂 Upload image", type=["png", "jpg", "jpeg", "jfif", "webp"])
 def preprocess_image(file):
     """Preprocess image for model prediction."""
     try:
