@@ -36,9 +36,4 @@ The classifier uses a **Convolutional Neural Network (CNN)** trained on the [Int
 - Pillow (PIL)
 - NumPy
 
-## 📦 Installation
 
-1. **Clone the repository** (or download the files):
-   ```bash
-   git clone https://github.com/yourusername/image-classifier.git
-   cd image-classifier
